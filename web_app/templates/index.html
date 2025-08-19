@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Robot Control Center</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../static/style.css" />
+    </head>
+    <body>
+        <div class="particles"></div>
+
+        <div class="container">
+            <div class="robot-icon">🤖</div>
+            <h1>Robot Control Center</h1>
+            <p class="subtitle">
+                Navigate your robot to any room with precision
+            </p>
+            <div class="control-group">
+                <div class="room-grid">
+                    <div class="room-card selected" data-room="101">
+                        <div class="room-icon">🛏️</div>
+                        <div class="room-number">Room 101</div>
+                    </div>
+                    <div class="room-card" data-room="102">
+                        <div class="room-icon">🛏️</div>
+                        <div class="room-number">Room 102</div>
+                    </div>
+                    <div class="room-card" data-room="103">
+                        <div class="room-icon">🛏️</div>
+                        <div class="room-number">Room 103</div>
+                    </div>
+                </div>
+
+                <button class="send-button" onclick="sendRoomCommand()">
+                    🚀 Send Robot
+                </button>
+            </div>
+
+            <div class="status-container">
+                <div id="status">Ready to receive commands...</div>
+            </div>
+        </div>
+
+        <script src="../static/script.js"></script>
+    </body>
+</html>
