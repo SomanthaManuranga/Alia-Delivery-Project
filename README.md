@@ -1,8 +1,6 @@
 # ALIA Delivery Project
 
-## Name
-
-Alia-Delivery Project
+## Alia-Delivery Project
 
 ## Description
 
