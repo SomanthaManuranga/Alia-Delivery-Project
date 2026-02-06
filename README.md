@@ -47,11 +47,7 @@ Install below tools to run the project:
 
 -   Run the project by executing the command: `python app.py`
 
-### 5. Open your browser
-
--   Visit [http://127.0.0.1:5050](http://127.0.0.1:5050)
-
-### 6. Interact With Web Interface
+### 5. Interact With Web Interface
 
 -   Use the dropdown to select a room and send a command.
 -   The robot should listen to the command and start moving to the selected room.
